@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的 GitHub 番茄鐘</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pomodoro-container">
+        <h1 id="status-label">工作時間 🍅</h1>
+        
+        <div class="timer-display" id="timer">25:00</div>
+        
+        <div class="button-group">
+            <button id="start-btn" class="btn start">開始</button>
+            <button id="pause-btn" class="btn pause" disabled>暫停</button>
+            <button id="reset-btn" class="btn reset">重設</button>
+        </div>
+
+        <div class="mode-group">
+            <button id="work-mode" class="btn-mode active">工作 (25分)</button>
+            <button id="break-mode" class="btn-mode">休息 (5分)</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
